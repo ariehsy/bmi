@@ -80,7 +80,7 @@
 					<div class="wrap-contact100-form-btn" >
 						<div class="contact100-form-bgbtn" style="background-image: url('images/batman.jpg');"></div>
 						<button class="contact100-form-btn" type="submit" name="hitung" value="hitung">
-							Submit 
+							Hitung BMI 
 						</button>
 					</div>
 				</div>

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Kalkulator BMI</title>
+	<title>Perhitungan BMI</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->
-	<!-- <link rel="icon" type="image/png" href="images/icons/favicon.ico"/> -->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
@@ -26,8 +26,8 @@
 <body>
 
 
-	<div class="container-contact100" style="background-image: url('images/batman.jpg');">
-		<div class="wrap-contact100">
+	<div class="container-contact100" style="background-image: url('images/batman1.jpg');">
+		<div class="wrap-contact100" style="background-image: url('images/ascii.jpg');">
 			<form class="contact100-form validate-form" action=index1.php method=post>
 				<span class="contact100-form-title">
 					Perhitungan BMI
@@ -71,14 +71,14 @@
 			        } else if ($bmi > 30.0) {
 			        $output = "OBESE";
 			    }
-			    echo "Your BMI value is  " . $bmi . "<br>  and you are : "; 
+			    echo "Your BMI value is : " . $bmi . "<br>  and you are : "; 
 			    echo "$output";
 			}
 			?>
 				
-				<div class="container-contact100-form-btn">
-					<div class="wrap-contact100-form-btn">
-						<div class="contact100-form-bgbtn"></div>
+				<div class="container-contact100-form-btn" >
+					<div class="wrap-contact100-form-btn" >
+						<div class="contact100-form-bgbtn" style="background-image: url('images/batman.jpg');"></div>
 						<button class="contact100-form-btn" type="submit" name="hitung" value="hitung">
 							Submit 
 						</button>
